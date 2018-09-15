@@ -12,16 +12,6 @@ public class Test {
 		int[] array7 = {1,1,1};
 		int[] array8 = {1,1,1,7};
 		int[] array9 = {7,7,7,2,2};
-
-		System.out.println(new lc713().numSubarrayProductLessThanK_v2(array1, 100));
-		System.out.println(new lc713().numSubarrayProductLessThanK_v2(array3, 100));
-		System.out.println(new lc713().numSubarrayProductLessThanK_v2(array4, 1));
-		System.out.println(new lc713().numSubarrayProductLessThanK_v2(array2, 0));
-		System.out.println(new lc713().numSubarrayProductLessThanK_v2(array5, 10));
-		System.out.println(new lc713().numSubarrayProductLessThanK_v2(array6, 0));
-		System.out.println(new lc713().numSubarrayProductLessThanK_v2(array7, 1));
-		System.out.println(new lc713().numSubarrayProductLessThanK_v2(array8, 1));
-		System.out.println(new lc713().numSubarrayProductLessThanK_v2(array9, 3));
 		
 		String[] str1 = {"abcw","baz","foo","bar","xtfn","abcdef"};
 		String[] str2 = {"a","ab","abc","d","cd","bcd","abcd"};
@@ -38,7 +28,8 @@ public class Test {
 		head = head.next;
 		//head.next = root.next;//3->1
 		
-		System.out.println(new lc142().hasCycle(root));
+//		System.out.println(new lc838().pushDominoes(".L.R...LR..L.."));
+		System.out.println(new lc838().pushDominoes("R..."));
 //		printArray(new lc349().intersection(array1, array2));
 //		Integer a = new Integer(3);
 //		Integer b = new Integer(3);
