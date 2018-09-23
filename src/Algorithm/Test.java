@@ -1,21 +1,28 @@
 package Algorithm;
-
+import java.util.*;
 public class Test {
 	public static void main(String args[]) {
-		int[] array1 = {10,5,2,6};
-		int[] array3 = {100};
-		int[] array4 = {1};
-		int[] array2 = {1,2,3};
+		int[] array1 = {11,2,3,2,1};
+		int[] array3 = {3,2,1,4,7};
+		int[] array4 = {0};
+		int[] array2 = {1,2,3,4,5};
 		int[] array5 = {10,10};
-		int[] array6 = {1};
+		int[] array6 = {3,3,3,1,2,1,1,2,3,3,4};
 
-		int[] array7 = {1,1,1};
-		int[] array8 = {1,1,1,7};
-		int[] array9 = {7,7,7,2,2};
+		int[] array7 = {1,2,1};
+		int[] array8 = {2,3,1,2,4,3};
+		int[] array9 = {3,1,2,4};
 		
-		String[] str1 = {"abcw","baz","foo","bar","xtfn","abcdef"};
-		String[] str2 = {"a","ab","abc","d","cd","bcd","abcd"};
-		String[] str3 = {"a","aa","aaa","aaaa"};
+		String[] str1 =  {"hot","dog","dot"};
+		String[] str2 = {"word","student"};
+		String[] str3 = {"bar","foo","the"};
+		String[] str4 = {"aa","aa","aa"};
+		String[] str5 = {"aa","at","aa"};
+		String[] str6 = {"hot","dot","dog","lot","log","cog"};
+		String[] str7 = {"hot","dot","dog","lot","log"};
+		
+		List<String> list1 = Arrays.asList(str6);
+		List<String> list2 = Arrays.asList(str1);
 		
 		ListNode head = new ListNode(0);
 
@@ -27,12 +34,11 @@ public class Test {
 		head.next = new ListNode(3);
 		head = head.next;
 		//head.next = root.next;//3->1
+		System.out.println(new lc837().new21Game(10, 1, 10));
+		System.out.println(new lc837().new21Game(6, 1, 10));
+		System.out.println(new lc837().new21Game(21, 17, 10));
 		
-//		System.out.println(new lc838().pushDominoes(".L.R...LR..L.."));
-		System.out.println(new lc838().pushDominoes("R..."));
-//		printArray(new lc349().intersection(array1, array2));
-//		Integer a = new Integer(3);
-//		Integer b = new Integer(3);
+
 	}
 	
 	static void printArray(int[] res) {
