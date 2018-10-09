@@ -28,7 +28,7 @@ public class lc837 {
      
      sum[0] = 1.0;
      // Rolling calculation
-     // p[i] = sum[i] - sum[i-1] -- natually
+     // p[i] = sum[i] - sum[i-1] -- naturally
      // p[i] = (p[i-1] +...+p [i-w]) / W -- this game
      //      = (sum[i-1] - sum[i-w-1]) / W
      // Combine above two, you can get a formula for sum[i] in O(n)
